@@ -1,9 +1,16 @@
 import React from 'react'
-import { VerticalTimeline } from 'react-vertical-timeline-component'
+import { VerticalTimeline , VerticalTimelineElement } from 'react-vertical-timeline-component'
 
 function Timeline() {
   return (
-    <div>Timeline</div>
+    <VerticalTimeline>
+      <VerticalTimelineElement class = ""className=''>
+
+      </VerticalTimelineElement>
+      <VerticalTimelineElement>
+        
+      </VerticalTimelineElement>
+    </VerticalTimeline>
   )
 }
 
