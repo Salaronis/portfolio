@@ -2,12 +2,13 @@
 Personal Portfolio website 
 
 Tools Used:
-Coffee
-HTML/CSS
-JavaScript
-react-router-dom
-Material UI
-react-vertical-timeline-component
+Coffee,
+HTML/CSS,
+JavaScript,
+react-router-dom,
+Material UI,
+react-vertical-timeline-component,
+react-scroll
 
 
 
