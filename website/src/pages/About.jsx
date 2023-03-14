@@ -8,13 +8,15 @@ const about = () => {
                 <p className="text-4xl font-bold inline border-b-4 border-gray-500">About</p>
             </div>
             <p className="text-xl mt-20">
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            I am an aspiring software engineer, looing to find internships for the 2023-2024 Summer. I am especially interested in roles in Full-Stack Development and in Machine Learning. While I'm not working on coding projects,
+            you can find me fencing, working out, or spending time with friends. I hope to leran as much as possible through my experience through internships and personal projects. If anything on here looks interesting to you,
+            or you think that we can work together on something, feel free to reach out!
             </p>
 
             <br/>
 
             <p>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+            
             </p>
         </div>
     </div>
