@@ -11,6 +11,7 @@ function App() {
       <NavBar />
       <Home/>
       <About/>
+      <Experience/>
       <Contact/>
       <SocialBar/>
     </div>

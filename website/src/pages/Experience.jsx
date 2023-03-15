@@ -10,6 +10,11 @@ import java from "../assets/pictures/icons8-java-144.png";
 import linux from "../assets/pictures/icons8-linux-96.png"
 import nodejs from "../assets/pictures/icons8-nodejs-144.png"
 import python from "../assets/pictures/icons8-python-144.png"
+import pandas from "../assets/pictures/icons8-pandas-144.png"
+import clang from "../assets/pictures/icons8-c-programming-144.png"
+import cpp from "../assets/pictures/icons8-c++-144.png"
+import tf from "../assets/pictures/icons8-tensorflow-144.png"
+import np from "../assets/pictures/icons8-numpy-144.png"
 
 const Experience = () => {
   const techs = [
@@ -79,14 +84,45 @@ const Experience = () => {
       src: linux,
       title: "Linux",
       subtitle: <a target="_blank" href="https://icons8.com/icon/17842/linux">Linux icon by Icons8</a>,
-      style: "shadow-white-500",
+      style: "shadow-white",
+    },
+    {
+      id:11,
+      src: clang,
+      title: "C",
+      subtitle:<a target="_blank" href="https://icons8.com/icon/40670/c-programming">C Programming icon by Icons8</a> ,
+      style: "shadow-indigo-500" ,
+    },{
+      id:12,
+      src: cpp,
+      title: "C++",
+      subtitle: <a target="_blank" href="https://icons8.com/icon/40669/c++">C++ icon by Icons8</a>,
+      style: "shadow-blue-500",
+    },{
+      id:13,
+      src: pandas,
+      title: "pandas",
+      subtitle: <a target="_blank" href="https://icons8.com/icon/xSkewUSqtErH/pandas">Pandas icon by Icons8</a>,
+      style: "shadow-indigo-500"
+    },{
+      id:14,
+      src: tf,
+      title: "TensorFlow",
+      subtitle:<a target="_blank" href="https://icons8.com/icon/n3QRpDA7KZ7P/tensorflow">Tensorflow icon by Icons8</a> ,
+      style: "shadow-orange-500"
+    },{
+      id:15,
+      src:np,
+      title: "NumPy",
+      subtitle: <a target="_blank" href="https://icons8.com/icon/aR9CXyMagKIS/numpy">Numpy icon by Icons8</a>,
+      style: "shadow-teal-500"
     }
   ];
 
   return (
     <div
       name="experience"
-      className="bg-gradient-to-b from-gray-800 to-black w-full h-screen"
+      className="bg-gradient-to-b from-gray-800 to-black w-full h-auto"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
@@ -96,7 +132,7 @@ const Experience = () => {
           <p className="py-6">These are the technologies I've worked with</p>
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
+        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-8 text-center py-8 px-12 sm:px-0">
           {techs.map(({ id, src, title, subtitle, style }) => (
             <button
               key={id}
