@@ -22,53 +22,53 @@ const Experience = () => {
       id: 1,
       src: html,
       title: "HTML",
-      subtitle: <a target="_blank" href="https://icons8.com/icon/20909/html-5">Html 5 icon by Icons8</a>,
+      subtitle: <a target="_blank" href="https://icons8.com/icon/20909/html-5" rel="noreferrer">Html 5 icon by Icons8</a>,
       style: "shadow-orange-500",
     },
     {
       id: 2,
       src: css,
       title: "CSS",
-      subtitle: <a target="_blank" href="https://icons8.com/icon/21278/css3">CSS3 icon by Icons8</a>,
+      subtitle: <a target="_blank" href="https://icons8.com/icon/21278/css3" rel="noreferrer">CSS3 icon by Icons8</a>,
       style: "shadow-blue-500",
     },
     {
       id: 3,
       src: javascript,
       title: "JavaScript",
-      subtitle: <a target="_blank" href="https://icons8.com/icon/108784/javascript">JavaScript icon by Icons8</a>,
+      subtitle: <a target="_blank" href="https://icons8.com/icon/108784/javascript" rel="noreferrer">JavaScript icon by Icons8</a>,
       style: "shadow-yellow-500",
     },{
       id: 4,
       src:nodejs,
       title: "Node.js",
-      subtitle: <a target="_blank" href="https://icons8.com/icon/54087/nodejs">Nodejs icon by Icons8</a>,
+      subtitle: <a target="_blank" href="https://icons8.com/icon/54087/nodejs" rel="noreferrer">Nodejs icon by Icons8</a>,
       style: "shadow-emerald-500"
     },
     {
       id: 5,
       src: reactImage,
       title: "React",
-      subtitle: <a target="_blank" href="https://icons8.com/icon/asWSSTBrDlTW/react-a-javascript-library-for-building-user-interfaces">React icon by Icons8</a>,
-      style: "shadow-blue-600",
+      subtitle: <a target="_blank" href="https://icons8.com/icon/asWSSTBrDlTW/react-a-javascript-library-for-building-user-interfaces" rel="noreferrer">React icon by Icons8</a>,
+      style: "shadow-sky-600",
     },
     {
       id: 6,
       src: tailwind,
       title: "TailwindCSS",
-      subtitle: <a target="_blank" href="https://icons8.com/icon/CIAZz2CYc6Kc/tailwindcss">Tailwindcss icon by Icons8</a>,
+      subtitle: <a target="_blank" href="https://icons8.com/icon/CIAZz2CYc6Kc/tailwindcss" rel="noreferrer">Tailwindcss icon by Icons8</a>,
       style: "shadow-sky-400",
     },
     {
       id: 7,
       src: java,
-      subtitle: <a target="_blank" href="https://icons8.com/icon/13679/java">Java icon by Icons8</a>,
+      subtitle: <a target="_blank" href="https://icons8.com/icon/13679/java" rel="noreferrer">Java icon by Icons8</a>,
       title: "Java",
       style: "shadow-pink-400",
     },{
       id: 8,
       src: python,
-      subtitle:<a target="_blank" href="https://icons8.com/icon/13441/python">Python icon by Icons8</a>,
+      subtitle:<a target="_blank" href="https://icons8.com/icon/13441/python" rel="noreferrer">Python icon by Icons8</a>,
       title: "Python",
       style: "shadow-blue-500"
     },
@@ -76,55 +76,55 @@ const Experience = () => {
       id: 9,
       src: github,
       title: "GitHub",
-      subtitle: <a target="_blank" href="https://icons8.com/icon/3tC9EQumUAuq/github">GitHub icon by Icons8</a>,
+      subtitle: <a target="_blank" href="https://icons8.com/icon/3tC9EQumUAuq/github" rel="noreferrer">GitHub icon by Icons8</a>,
       style: "shadow-gray-400",
     },
     {
       id:10,
       src: linux,
       title: "Linux",
-      subtitle: <a target="_blank" href="https://icons8.com/icon/17842/linux">Linux icon by Icons8</a>,
+      subtitle: <a target="_blank" href="https://icons8.com/icon/17842/linux" rel="noreferrer">Linux icon by Icons8</a>,
       style: "shadow-white",
     },
     {
       id:11,
       src: clang,
       title: "C",
-      subtitle:<a target="_blank" href="https://icons8.com/icon/40670/c-programming">C Programming icon by Icons8</a> ,
+      subtitle:<a target="_blank" href="https://icons8.com/icon/40670/c-programming" rel="noreferrer">C Programming icon by Icons8</a> ,
       style: "shadow-indigo-500" ,
     },{
       id:12,
       src: cpp,
       title: "C++",
-      subtitle: <a target="_blank" href="https://icons8.com/icon/40669/c++">C++ icon by Icons8</a>,
+      subtitle: <a target="_blank" href="https://icons8.com/icon/40669/c++" rel="noreferrer">C++ icon by Icons8</a>,
       style: "shadow-blue-500",
     },{
       id:13,
       src: pandas,
       title: "pandas",
-      subtitle: <a target="_blank" href="https://icons8.com/icon/xSkewUSqtErH/pandas">Pandas icon by Icons8</a>,
+      subtitle: <a target="_blank" href="https://icons8.com/icon/xSkewUSqtErH/pandas" rel="noreferrer">Pandas icon by Icons8</a>,
       style: "shadow-indigo-500"
     },{
       id:14,
       src: tf,
       title: "TensorFlow",
-      subtitle:<a target="_blank" href="https://icons8.com/icon/n3QRpDA7KZ7P/tensorflow">Tensorflow icon by Icons8</a> ,
+      subtitle:<a target="_blank" href="https://icons8.com/icon/n3QRpDA7KZ7P/tensorflow" rel="noreferrer">Tensorflow icon by Icons8</a> ,
       style: "shadow-orange-500"
     },{
       id:15,
       src:np,
       title: "NumPy",
-      subtitle: <a target="_blank" href="https://icons8.com/icon/aR9CXyMagKIS/numpy">Numpy icon by Icons8</a>,
-      style: "shadow-teal-500"
+      subtitle: <a target="_blank" href="https://icons8.com/icon/aR9CXyMagKIS/numpy" rel="noreferrer">Numpy icon by Icons8</a>,
+      style: "shadow-teal-300"
     }
   ];
 
   return (
     <div
       name="experience"
-      className="bg-gradient-to-b from-gray-800 to-black w-full h-auto"
+      className="bg-gradient-to-b from-black to-gray-800 w-full h-full"
     >
-      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
+      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white py-5">
         <div>
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
             Experience
