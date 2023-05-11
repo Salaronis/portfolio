@@ -7,7 +7,7 @@
 /src/assets
 # testing
 /coverage
-
+/public.Resume.pdf
 # production
 /build
 

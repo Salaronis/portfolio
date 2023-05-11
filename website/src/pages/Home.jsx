@@ -8,8 +8,9 @@ const Home = () => {
             <div className = "flex flex-col justify-center h-full">
                 <h2 className='text-4xl sm:text-7xl font-bold text-white'>Hey, I'm Michael! </h2>
                 <p className='text-gray-500 py-4 max-w-md'>
-                   Sophomore at the University of Massachusetts Amherst, with interests in Applications of Machine Learning and Artificial Intelligence
+                   Sophomore at the University of Massachusetts Amherst, with interests in Applications of Machine Learning and Artificial Intelligence. 
                 </p>
+                
  
                 <div>
                     <button className='group text-white w-it px-6 py-3 my-2 flex items-center rounded-md cursor-pointer bg-gradient-to-b from-[#881c1c] to-[#4c1010]'>

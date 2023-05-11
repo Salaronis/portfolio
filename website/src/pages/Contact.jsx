@@ -44,6 +44,9 @@ const Contact = () => {
             </button>
           </form>
         </div>
+        <p>
+          Thanks for reaching the end of my website :D
+        </p>
       </div>
     </div>
   );
