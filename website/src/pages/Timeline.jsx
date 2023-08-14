@@ -4,7 +4,7 @@ import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timel
 const Timeline =() =>{
     return(
         <div name= "timeline">
-
+                
         </div>
     )
 }
