@@ -1,6 +1,6 @@
 import React from 'react'
 
-const about = () => {
+const About = () => {
   return (
     <div name = "about" className=' w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white'>
         <div className =" max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
@@ -16,11 +16,11 @@ const about = () => {
             <br/>
 
             <p>
-            "I am currently working on many different projects to help boost my portfolio and am always willing to learn more about software development. "
+            I am currently working on many different projects to help boost my portfolio and am always willing to learn more about software development.
             </p>
         </div>
     </div>
   )
 }
 
-export default about
+export default About

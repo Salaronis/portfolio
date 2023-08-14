@@ -2,9 +2,10 @@ import React from 'react'
 import ProjectsList from '../data/ProjectsList.js'
 const Projects = () => {
   return (
+    
     <div
       name="projects"
-      className="bg-gradient-to-b from-gray-800 to-black w-full text-white md:h-screen h-auto"
+      className=" pt-11 bg-gradient-to-b from-gray-800 to-black w-full text-white md:h-screen h-auto"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-auto">
         <div className="pb-8">
@@ -17,22 +18,18 @@ const Projects = () => {
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 h-80">
           {ProjectsList.map(({ id,Name, Photo, Description, Tags, Github, demo }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg justify-center">
+              <a target="_blank" href = {Github} rel="noreferrer">
+              <button key={id} className="shadow-md shadow-gray-600 rounded-lg justify-center"  >
+              
               <img
                 src={Photo}
                 alt={Description}
                 className="rounded-md duration-200 hover:scale-105 w-96 h-40"
               />
-              <div className="justify-center">
-                {Name}
-              </div>
-              <div className="flex items-center justify-center">
-                <button class="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 rounded-full bg-green-500">
-                  {demo}
-                </button>
-                <button class="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 rounded-full bg-cyan-400">
-                   {Github}
-                </button>
-              </div>
+              {Name}
+              </button>
+              </a>
+              
             </div>
           ))}
         </div>

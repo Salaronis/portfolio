@@ -40,7 +40,7 @@ const SocialBar = () => {
             Resume <ArticleIcon size={30} />
           </>
         ),
-        href: "/Resume.pdf",
+        href: "https://docs.google.com/document/d/12549AjdSZxymKxjC7RHkmqFfRMkF28Mt3td60yawK2Q/edit?usp=sharing",
         style: "rounded-br-md",
         download: true,
       },

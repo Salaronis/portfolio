@@ -1,28 +1,17 @@
 import React from 'react'
-import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
-//import {pfp} from "../assets/PFP.jpg"
+import pfp from '../assets/pictures/pfp.JPG'
 const Home = () => {
   return (
     <div name = "home" className=' h-screen w-full bg-gradient-to-b from-black via-black to-gray-800'>
         <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
-            <div className = "flex flex-col justify-center h-full">
-                <h2 className='text-4xl sm:text-7xl font-bold text-white'>Hey, I'm Michael! </h2>
-                <p className='text-gray-500 py-4 max-w-md'>
-                   Sophomore at the University of Massachusetts Amherst, with interests in Applications of Machine Learning and Artificial Intelligence. 
+            <img src={pfp} className='h-3/4 rounded-md'>
+            </img>
+            <div className = "flex flex-col justify-center h-full pl-5">
+                <h2 className='text-4xl sm:text-7xl font-bold text-white'>Hey, I'm Michael Xie! </h2>
+                <p className='text-gray-500 py-4 max-w-md '>
+                   Junior at the University of Massachusetts Amherst, with interests in Applications of Machine Learning and Artificial Intelligence. 
                 </p>
-                
- 
-                <div>
-                    <button className='group text-white w-it px-6 py-3 my-2 flex items-center rounded-md cursor-pointer bg-gradient-to-b from-[#881c1c] to-[#4c1010]'>
-                        Projects
-                        <span className='group-hover:rotate-90 duration-300'>
-                            <ArrowForwardIosIcon size={10} className='ml-1'/>
-                        </span>
-                       
-                    </button>
-                </div>
             </div>
- 
             <div>
                 
             </div>

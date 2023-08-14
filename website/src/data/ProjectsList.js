@@ -3,6 +3,7 @@ import website from '../assets/pictures/website.PNG'
 import movie from '../assets/pictures/movie.jpg'
 import jsi from '../assets/pictures/jsinterpreter.png'
 import ct from '../assets/pictures/cocktail.png'
+import tsp from '../assets/pictures/48StatesTSP.png'
 import { Link } from "react-scroll";
 var ProjectsList = [
     {
@@ -11,7 +12,7 @@ var ProjectsList = [
         Photo: website,
         Description: "",
         Tags: ["JavaScript" , "Node.JS" , "ReactJS", "TailwindCSS"],
-        Github: <a target="_blank" href ="https://github.com/Salaronis/portfolio" rel="noreferrer">Github</a>,
+        Github: "https://github.com/Salaronis/portfolio",
         demo: <Link to={"home"} smooth duration={500}>{"Demo"}</Link>
     },
     {
@@ -20,16 +21,16 @@ var ProjectsList = [
         Photo: jsi,
         Description: "Checks Grammar of JavaScript Code",
         Tags: ["JavaScript", "NodeJS"],
-        Github: "Available upon Request",
+        Github: "",
         demo: "N/A"
     },
     {
         id: 3,
         Name: "Movie Library",
         Photo: movie,
-        Description: "CommandLine applcation that allows for people to create ",
+        Description: "CommandLine applcation that allows for people to create a simplistic movie library",
         Tags: ["Java"],
-        Github: "Available upon Request",
+        Github: "",
         demo: "N/A"
     },
     {
@@ -38,7 +39,7 @@ var ProjectsList = [
         Photo: stb,
         Description: "Recreation of Shut the Box as a Java App",
         Tags: ["Java"],
-        Github: <a target="_blank" href ="https://github.com/Salaronis/shut-the-box" rel="noreferrer">Github</a>,
+        Github: "https://github.com/Salaronis/shut-the-box",
         demo: "Demo"
     },{
         id:5,
@@ -46,8 +47,16 @@ var ProjectsList = [
         Photo: ct,
         Description:"Discord Bot that returns cocktail recipes",
         Tags: ["Heroku","Javascript","NodeJS"],
-        Github: <a target ="_blank" href = "https://github.com/Salaronis/cocktailBot" rel="noreferrer">Github</a>,
+        Github: "https://github.com/Salaronis/cocktailBot",
         demo: "Demo"
+    },{
+        id:6,
+        Name: "Traveling Salesman Problem Visualizer",
+        Photo: tsp,
+        Description: "Traveling Salesman Problem Visualizer showing Christophide's Algorithm",
+        Tages:["Python"],
+        Github:"https://github.com/Salaronis/TSPV",
+        demo:"Demo"
     }
 ]
 
